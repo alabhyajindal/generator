@@ -5,9 +5,6 @@
   "repository": "https://github.com/alabhyajindal/generator.git",
   "author": "Alabhya Jindal <alabhya10@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "web-dev": "yarn workspace"
-  },
   "private": true,
   "workspaces": [
     "desktop",
