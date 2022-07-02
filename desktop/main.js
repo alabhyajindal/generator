@@ -6,7 +6,8 @@ const { app, BrowserWindow } = require('electron');
 let mainWindow;
 
 app.on('ready', () => {
-  // This creates a new window
+  // Create a new window
   mainWindow = new BrowserWindow({});
-  mainWindow.loadFile('mainWindow.html');
+  // Load a URL in the newly created window
+  mainWindow.loadURL('https://password-alabhya.netlify.app/');
 });
