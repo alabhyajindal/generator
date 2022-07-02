@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #847577;
+  font-family: sans-serif;
+  max-width: 30rem;
+  margin: auto;
+  padding: 3rem 1rem 0rem 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.app {
+  background-color: #a6a2a2;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+header {
+  padding-bottom: 1rem;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+
+main {
+  color: #222;
+}
+
+select {
+  width: 3rem;
+  text-align: right;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.result {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  color: #2f9e44;
+}
+
+.result-box {
+  padding-top: 1rem;
+}
+
+.generate-box {
+  padding-top: 1rem;
+}
+
+.copied {
+  background: none;
+  color: #2f9e44;
+  font-weight: bold;
+}
