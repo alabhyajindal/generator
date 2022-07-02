@@ -7,7 +7,12 @@ let mainWindow;
 
 app.on('ready', () => {
   // Create a new window
-  mainWindow = new BrowserWindow({});
+  mainWindow = new BrowserWindow({
+    webPreferences: {
+      nodeIntegration: false,
+      contextIsolation: true,
+    },
+  });
   // Load a URL in the newly created window
   mainWindow.loadURL('https://password-alabhya.netlify.app/');
 });
